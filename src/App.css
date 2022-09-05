@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+}
+#root{
+    height: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1500px;
+}
+
+@media(max-width: 678px) {
+    .container{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
